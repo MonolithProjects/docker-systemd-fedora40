@@ -16,7 +16,7 @@ jobs:
             uses: HurricanKai/Publish-Docker-Github-Action@master
             if: contains(github.ref, 'refs/tags/')
             with:
-              name: monolithprojects/systemd-fedora39
+              name: monolithprojects/systemd-fedora40
               username: monolithprojects
               password: ${{ secrets.TOKEN }}
               tagging: true
