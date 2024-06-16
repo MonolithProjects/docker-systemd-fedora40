@@ -15,7 +15,7 @@ jobs:
           - name: Monthly build
             uses: HurricanKai/Publish-Docker-Github-Action@master
             with:
-              name: monolithprojects/systemd-fedora39
+              name: monolithprojects/systemd-fedora40
               username: monolithprojects
               password: ${{ secrets.TOKEN }}
               registry: docker.io
