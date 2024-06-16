@@ -1,4 +1,4 @@
-FROM fedora:39
+FROM fedora:40
 LABEL maintainer="Michal Muransky"
 WORKDIR /lib/systemd/system/sysinit.target.wants/
 ENV \
